@@ -53,7 +53,6 @@ src_install() {
 
 	diropts -m0750 -o mfs -g mfs
 	dodir "/var/lib/mfs"
-	#mv "${D}usr/var/lib/mfs/*" "${D}/var/lib/mfs"
 	chown -R mfs:mfs "${D}var/lib/mfs" || die
 	chmod 750 "${D}var/lib/mfs" || die
 }
