@@ -1,6 +1,6 @@
-# Copyright 1999-2012 Gentoo Foundation
-# Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-cluster/moosefs/moosefs-1.6.25.ebuild,v 1.1 2012/07/02 13:51:07 ultrabug Exp $
+# Copyright 2018 Funtoo Linux
+# Distributed under the terms of the GNU General Public License v3
+# $Id$
 
 EAPI=5
 
@@ -14,7 +14,6 @@ HOMEPAGE="http://lizardfs.org"
 SRC_URI=""
 
 EGIT_REPO_URI="https://github.com/lizardfs/lizardfs.git"
-#EGIT_COMMIT="If316525daf78165494416508cb81b5448f3b760d"
 EGIT_COMMIT="v3.12.0"
 LICENSE="GPL-3"
 SLOT="0"
