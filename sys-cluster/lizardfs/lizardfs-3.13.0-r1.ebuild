@@ -27,7 +27,8 @@ RDEPEND="
 	dev-libs/judy
 	dev-libs/isa-l
 	fuse? ( >=sys-fs/fuse-2.6 )
-	=sys-devel/gcc-6.3.0"
+	>=sys-devel/gcc-6.3.0
+	<=sys-libs/glibc-2.24"
 DEPEND="${RDEPEND}"
 
 
